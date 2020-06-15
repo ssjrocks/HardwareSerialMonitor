@@ -5,7 +5,7 @@ Due to the Windows 10 not allowing programs to run on startup as admin, here is 
 
 1) Right-click on the HardwareSerialMonitor.exe , go to properties, then compatibility and check "Run as Administrator"
 
-2) Create the VBScript using a text editor (I use Notepad++)
+2) Create the VBScript using a text editor (I used Notepad)
 
 Script:
 ------------------------------------------------------------------------------------------------------------------
