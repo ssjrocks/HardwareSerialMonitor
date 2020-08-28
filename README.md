@@ -48,6 +48,8 @@ cpu clock
 
 gpu clock
 
+it also maps the percentage for cpu load to the angles required for the gauge values
+
 and then uses the easy nextion library to pass these values to the screen via Serial1(tx1(pin 19) and rx1(pin 18))
 
 
