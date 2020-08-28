@@ -20,18 +20,18 @@ Gnat Stats PC Harware Performance Monitor Windows Client
   please note, i am very new to coding and arduino, use any of this software or my method of implementation at your own risk, no guarantees
 
 
-needed:
+#needed:
 
   arduino mega(shouldnt be to hard to adapt to software serial for uno just have not sorted this myself)
   nextion 240x320 2.8" screen ... im using nx3224TO28_011, others would work but might need some modifications... or just clone the him for your screen
 
-how i put it together:
+#how i put it together:
 
   using the hardware serial program, i modified it to encapsulate specific values and change the format it outputs over the serial so i could
   process the values in an arduino and then have the arduino do the nextion communication
   the reason for this is i am unable to figure out how to use the nextion direct from the hardware serial monitor application due to lack of coding     knowledge/skills
 
-physical setup:
+#physical setup:
 
   an arduino mega plugged in via usb recieves the hardware serial monitor output through the usb connection.
   the arduino reads the values coming in from Serial and splits the data into 8 variables
