@@ -8,7 +8,9 @@ Gnat Stats PC Harware Performance Monitor Windows Client
 
 
 
-modified by ssjrocks to reformat output for arduino->nextion adaption
+  modified by ssjrocks to reformat output for arduino->nextion adaption
+  requires easy nextion library for arduino https://github.com/Seithan/EasyNextionLibrary
+ 
   Licence
   -------
 
