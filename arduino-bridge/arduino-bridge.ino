@@ -14,7 +14,6 @@ EasyNex myNex(Serial1); // Create an object of EasyNex class with the name < myN
 const byte numChars = 32;
 char receivedChars[numChars];
 char tempChars[numChars];      
-char messageFromPC[numChars] = {0};
 int ctem = 0;
 int cload = 0;
 int gtem = 0;
