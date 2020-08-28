@@ -37,10 +37,15 @@ Gnat Stats PC Harware Performance Monitor Windows Client
   the arduino reads the values coming in from Serial and splits the data into 8 variables
 
 cpu load
+
 cpu temp
+
 gpu load
+
 gpu temp
+
 cpu clock
+
 gpu clock
 
 and then uses the easy nextion library to pass these values to the screen via Serial1(tx1(pin 19) and rx1(pin 18))
