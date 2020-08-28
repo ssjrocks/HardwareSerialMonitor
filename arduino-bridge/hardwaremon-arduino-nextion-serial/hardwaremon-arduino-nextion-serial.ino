@@ -1,8 +1,15 @@
 // amateur project to display pc stats on a nextion via an arduino
+//must use mega for now .. cant get this nextion library to work with software serial for now ... so recieves hardware monitor input on Serial and outputs nextion commands on Serial1
+
+
 #include "EasyNextionLibrary.h"  // Include EasyNextionLibrary
 
+
+//#include <SoftwareSerial.h>
+
+// SoftwareSerial mySerial(2, 3); // RX, TX not gonna work
 EasyNex myNex(Serial1); // Create an object of EasyNex class with the name < myNex >
-                     
+
     
 const byte numChars = 32;
 char receivedChars[numChars];
