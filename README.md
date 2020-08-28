@@ -13,7 +13,9 @@ Gnat Stats PC Harware Performance Monitor Windows Client
   requires easy nextion library for arduino https://github.com/Seithan/EasyNextionLibrary
 
   for now only compatible with arduino mega, as i have not sorted softwareserial out for the nextion library
- 
+
+![Screen Output](https://images2.imgbox.com/de/0f/YIBIetT5_o.jpg)
+
   Licence
   -------
 

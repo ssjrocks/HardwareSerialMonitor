@@ -37,3 +37,17 @@ F:\Visual Studio 2017\Projects\HardwareSerialMonitorV1\HardwareSerialMonitor\Har
 F:\Visual Studio 2017\Projects\HardwareSerialMonitorV1\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.csproj.CopyComplete
 F:\Visual Studio 2017\Projects\HardwareSerialMonitorV1\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.exe
 F:\Visual Studio 2017\Projects\HardwareSerialMonitorV1\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.pdb
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\bin\Release\HardwareSerialMonitor.exe.config
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\bin\Release\HardwareSerialMonitor.exe
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\bin\Release\HardwareSerialMonitor.pdb
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\bin\Release\INIFileParser.dll
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\bin\Release\OpenHardwareMonitorLib.dll
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\bin\Release\INIFileParser.xml
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.csprojAssemblyReference.cache
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.AboutBox1.resources
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.Properties.Resources.resources
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.csproj.GenerateResource.cache
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.csproj.CoreCompileInputs.cache
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.csproj.CopyComplete
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.exe
+D:\GitHub\HardwareSerialMonitor\HardwareSerialMonitor\obj\Release\HardwareSerialMonitor.pdb
