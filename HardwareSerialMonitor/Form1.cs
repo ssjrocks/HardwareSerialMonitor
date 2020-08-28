@@ -445,7 +445,7 @@ namespace HardwareSerialMonitor
                         {
                             if (s.SensorType == OpenHardwareMonitor.Hardware.SensorType.Temperature)   // if the sensor type is a temperature sensor
                             {
-                                if (s.Name.IndexOf("CPU Core") > -1)
+                                if (s.Name.IndexOf("CPU Package") > -1)
                                 {
                                     averageTemp = averageTemp + (int)s.Value;
                                     numTemps++;
