@@ -1,4 +1,4 @@
-# HardwareSerialMonitor
+# HardwareSerialMonitor with formatting for an arduino-nextion setup
 Gnat Stats PC Harware Performance Monitor Windows Client
   
   GNATSTATS OLED PC Performance Monitor / HardwareSerialMonitor -  Rupert Hirst & Colin Conway © 2016-2018
@@ -6,6 +6,9 @@ Gnat Stats PC Harware Performance Monitor Windows Client
   
   https://hackaday.io/project/19018-gnat-stats-tiny-oled-pc-performance-monitor
 
+
+
+modified by ssjrocks to reformat output for arduino->nextion adaption
   Licence
   -------
 

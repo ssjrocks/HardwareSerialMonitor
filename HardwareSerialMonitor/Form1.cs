@@ -386,7 +386,7 @@ namespace HardwareSerialMonitor
                             {
                                 // break from the switch so it doesnt run the case below
                                 case "GPU Core":                                              //if the name is "GPU Core"
-                                    gpuCoreClock = "|GCC"+clockSpeed.ToString();
+                                    gpuCoreClock = "|"+clockSpeed.ToString();
                                     break;
                                 case "GPU Memory":                                              //if the name is "GPU Memory"
                                     gpuMemoryClock = "|GMC"+clockSpeed.ToString();
@@ -400,7 +400,7 @@ namespace HardwareSerialMonitor
                                 if (clockSpeed > highestCPUClock) // run through each iteration of CPU Core and if the speed is higher than the last save it
                                 {
                                     highestCPUClock = clockSpeed;
-                                    cpuClock = "|CHC"+highestCPUClock.ToString()+"|";
+                                    cpuClock = "|"+highestCPUClock.ToString()+"|>";
                                 }
                             }
                         }
@@ -464,13 +464,16 @@ namespace HardwareSerialMonitor
             Debug.WriteLine("CPU Name:" + cpuName + " | GPU Name:" + gpuName);
             Debug.WriteLine(gpuCoreClock + gpuMemoryClock + gpuShaderClock + cpuClock);
             string stats = string.Empty;//create a new string and instantiate it as empty
-            stats = "C" + cpuTemp + "c " + cpuLoad + "%|G" + gpuTemp + "c " + gpuLoad + "%|R" + ramUsed + "G|"; //write the strings to the new string along with separators and denotations the arduino can understand
+            stats = "<" + cpuTemp + "|" + cpuLoad + "|" + gpuTemp + "|" + gpuLoad + ""; //write the strings to the new string along with separators and denotations the arduino can understand
+           //  stats = "C" + cpuTemp + "c " + cpuLoad + "%|G" + gpuTemp + "c " + gpuLoad + "%|R" + ramUsed + "G|"; //write the strings to the new string along with separators and denotations the arduino can understand
             Debug.WriteLine(stats);//output the string to the debug console
             Debug.WriteLine(cpuName+gpuName);
             if (stats != string.Empty)//so long as its not empty
             {
-                sendToArduino(stats+cpuName+gpuName+gpuCoreClock+gpuMemoryClock+gpuShaderClock+cpuClock);//send the string to the function
-               // sendToArduino(cpuName+gpuName);
+
+                sendToArduino(stats + gpuCoreClock + cpuClock);//send the string to the function               
+                 // sendToArduino(stats+cpuName+gpuName+gpuCoreClock+gpuMemoryClock+gpuShaderClock+cpuClock);//send the string to the function
+                  // sendToArduino(cpuName+gpuName);
             }
         }
         private bool ConnectToDevice()//function to connect to the default device
